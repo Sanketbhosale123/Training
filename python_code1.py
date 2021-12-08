@@ -31,7 +31,7 @@ def function ():
             #print(len(line_match.group()))
             key = line_match.group()
     key_list.extend(key.split())
-    print(key_list)
+    #print(key_list)
     final_data = []
     final_data.append(key_list)
 
@@ -53,7 +53,7 @@ def function ():
         #print(final_dict)
     return final_data
 main = function()
-print(main)
+#:print(main)
 
 for i in main:
     print(" ".join(i))
